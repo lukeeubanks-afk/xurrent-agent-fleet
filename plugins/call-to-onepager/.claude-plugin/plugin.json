@@ -1,0 +1,9 @@
+{
+  "name": "call-to-onepager",
+  "displayName": "Call to One-Pager",
+  "version": "3.4.1",
+  "description": "Turns a discovery or cold call transcript into a brand-compliant, account-tailored one-pager PDF for ITSM or IMR deals.",
+  "author": {
+    "name": "Luke Eubanks"
+  }
+}
