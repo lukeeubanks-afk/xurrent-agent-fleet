@@ -1,0 +1,128 @@
+{
+  "_comment": "Worked ITSM example. Built from two real calls with Barking, Havering and Redbridge University Hospitals NHS Trust (5 and 10 June 2026). Shows the v3.3.0 motion fields, a named flow_heading, an integration-target coverage table, and proof drawn from the register's UK and healthcare pages. Rep details are illustrative; confirm them with the seller on a real build.",
+  "motion": "itsm",
+  "account": "Barking, Havering and Redbridge University Hospitals NHS Trust",
+  "department": "ICT Service Desk",
+  "date": "29 September 2026",
+  "focus_kicker": "Xurrent · IT Service Management",
+  "headline": "Taking the manual work off<br>your first line",
+  "subhead": "How Xurrent handles the password resets, leaver processing and reporting your team does by hand today.",
+  "flow_heading": "How a leaver moves through Xurrent",
+  "mirror": "You are running Ivanti Neurons v22 with no AI and no automation, so the team resolves hundreds of tickets a day by hand. Password resets are 30 to 40% of everything that comes in. Your team leader worked out that a leaver takes three minutes, and a batch of 135 works out at six and three quarter hours per analyst on top of the day job. Reporting comes out to Excel and gets tidied in PowerPoint, which you put at around 10 years behind where you want to be.",
+  "flow": [
+    {
+      "n": "01 TRIGGER",
+      "t": "The leaver list arrives",
+      "d": "The HR feed lands in Xurrent as a workflow rather than an email attachment. No one rekeys the names."
+    },
+    {
+      "n": "02 FAN OUT",
+      "t": "Tasks reach each team at once",
+      "d": "Desktop collects the device, Systems removes drive and group access, IT Security closes its own checks. Each is a task with an owner, not a chase."
+    },
+    {
+      "n": "03 TRACK",
+      "t": "One record, visible to everyone",
+      "d": "Your team leaders see where a leaver has stalled without opening four systems. So do the teams doing the work."
+    },
+    {
+      "n": "04 CLOSE",
+      "t": "Nothing closes half done",
+      "d": "The workflow completes only when every task does. The device return step stops being a goodwill exercise."
+    }
+  ],
+  "stack_heading": "Systems this connects to",
+  "stack_columns": [
+    "System",
+    "How it connects"
+  ],
+  "stack": [
+    {
+      "tool": "Lansweeper",
+      "how": "Documented integration. Named as a live integration on two published Xurrent customer pages, Claraspital and NAFTA. Your SE will confirm the connector against your version before you rely on it."
+    },
+    {
+      "tool": "Entra ID",
+      "how": "Identity integration is standard across published Xurrent deployments, including Active Directory and Azure AD. Confirm the Entra specifics with your SE."
+    },
+    {
+      "tool": "ESR",
+      "how": "No documented connector. The honest path is a scheduled feed into the joiner and leaver workflow rather than a prebuilt app. Needs SE scoping."
+    },
+    {
+      "tool": "OpenScape, via Mitel",
+      "how": "Xurrent has a CTI framework that covers a range of telephony systems. Whether it reaches your physical exchange is an SE question, not a claim we will make here."
+    },
+    {
+      "tool": "Qlik",
+      "how": "Reporting can be read from Xurrent directly or pushed to a central BI tool. Worth scoping how much of your Qlik work stops being necessary at all."
+    }
+  ],
+  "cols": [
+    {
+      "h": "The password reset load",
+      "items": [
+        {
+          "lbl": "Self-service that people use.",
+          "d": "The portal carries the reset journey rather than pointing at a form nobody opens."
+        },
+        {
+          "lbl": "Sera AI on the front.",
+          "d": "Triages what arrives, answers from your own knowledge base, and logs the rest to the right team."
+        },
+        {
+          "lbl": "Out of hours.",
+          "d": "The same knowledge is available at 11pm without extending the desk to cover it."
+        },
+        {
+          "lbl": "Outage banner.",
+          "d": "One tap from an affected user raises a linked ticket, so an outage does not become 40 calls."
+        }
+      ]
+    },
+    {
+      "h": "Reporting",
+      "items": [
+        {
+          "lbl": "Live dashboards.",
+          "d": "Your managers open their own numbers instead of asking you at nine for a report by three."
+        },
+        {
+          "lbl": "Scheduled sends.",
+          "d": "The Monday open and closed report goes out without anyone building it."
+        },
+        {
+          "lbl": "Third party performance.",
+          "d": "Your outsourced network provider appears in the same reporting as everyone else."
+        }
+      ]
+    }
+  ],
+  "proof": [
+    {
+      "who": "Vitality",
+      "stat": "Close to 70% self-service",
+      "d": "UK healthcare, around 1,000 specialists. Live in 90 days from signature, moving off ServiceNow after evaluating Ivanti."
+    },
+    {
+      "who": "UHasselt",
+      "stat": "First line 30% to 50%",
+      "d": "Open tickets fell from an average of 5,000 to closer to 400. Also evaluated Ivanti before choosing Xurrent."
+    },
+    {
+      "who": "SEAS",
+      "stat": "266+ hours saved a month",
+      "d": "43% of IT requests automated. Self-service went from under 5% of requests to 32%."
+    }
+  ],
+  "next_label": "Next step:",
+  "next_step": "Kyle will send the technical specification list for your tender, plus the business case template, before you brief procurement. No meeting needed to receive either.",
+  "footnote": "",
+  "rep": {
+    "name": "Kyle Fountain",
+    "title": "Account Executive",
+    "email": "kyle.fountain@xurrent.com"
+  },
+  "version": "ITSM-ONEPAGER-EXAMPLE-v1.0.0",
+  "claims_version": "greg-claims-register-v3.1.0"
+}

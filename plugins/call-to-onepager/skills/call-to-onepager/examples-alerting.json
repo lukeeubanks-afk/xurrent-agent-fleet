@@ -1,0 +1,122 @@
+{
+  "_comment": "Reference config. Claims valid against greg-claims-register-v3.1.0 (2026-07-28). Every proof figure below sits on that customer's own published success story page. This file is a FORMAT reference, not a claims source: re-check every claim against the live register before it reaches a document.",
+  "motion": "imr",
+  "account": "Example Account",
+  "department": "Network Operations",
+  "date": "6 August 2026",
+  "focus_kicker": "Xurrent IMR · Incident Management and Response",
+  "headline": "Alerting that filters before<br>it wakes anyone up",
+  "subhead": "How Xurrent IMR ingests alerts from the monitoring you already run, groups what belongs together, and routes only what a human needs to act on.",
+  "mirror": "Right now a threshold trips, an alert fires, a ticket lands in your service desk, and an email follows it. The path works. It just does not tell anyone whether this one matters. At your scale that volume is the problem, not the tooling that produced it.",
+  "flow": [
+    {
+      "n": "01 INGEST",
+      "t": "Your tools keep firing",
+      "d": "IMR takes alerts from the monitoring you already run. Nothing gets replaced and no thresholds get rebuilt."
+    },
+    {
+      "n": "02 CORRELATE",
+      "t": "Related events become one incident",
+      "d": "Events that describe the same underlying problem group together, so teams work the impact rather than the volume."
+    },
+    {
+      "n": "03 ROUTE",
+      "t": "Rules run before anyone is paged",
+      "d": "Conditions match, then non-actionable alerts stop there, priority gets set, a playbook attaches, or a team picks it up. Routing runs ahead of escalation."
+    },
+    {
+      "n": "04 ESCALATE",
+      "t": "It keeps going until acknowledged",
+      "d": "Multi-tier escalation by team or service. If tier one does not acknowledge, it moves to tier two. Email, SMS, voice, Slack, Teams, iOS and Android push."
+    }
+  ],
+  "stack": [
+    {
+      "tool": "Datadog",
+      "how": "Chalo's published story names Datadog as one of three alert sources they consolidated into Xurrent IMR alongside AppOptics and Pingdom."
+    },
+    {
+      "tool": "Grafana, Prometheus, AWS CloudWatch",
+      "how": "GroundTruth's published story describes alerts from Grafana with Prometheus and AWS CloudWatch routed through Xurrent IMR."
+    },
+    {
+      "tool": "Zabbix",
+      "how": "SEAS lists Zabbix and three further monitoring applications among the systems feeding their Xurrent environment."
+    },
+    {
+      "tool": "Dynatrace",
+      "how": "Vitality lists Dynatrace among its live integrations."
+    },
+    {
+      "tool": "Anything not listed",
+      "how": "Name the source and we will map the ingest path with our solutions engineer rather than assert a connector exists. Ten minutes, and you get the API detail in writing."
+    }
+  ],
+  "cols": [
+    {
+      "h": "One place, not another tab",
+      "items": [
+        {
+          "lbl": "Alert, ticket, and change are one object.",
+          "d": "An incident in IMR correlates to its ITSM change record. No reconciling two systems after the fact."
+        },
+        {
+          "lbl": "Act from where your team already is.",
+          "d": "Create, acknowledge, and resolve incidents inside Slack, Teams, or Jira. State stays in sync everywhere."
+        },
+        {
+          "lbl": "Dependencies are mapped.",
+          "d": "The service catalog shows what a failing service touches, so responders see the blast radius before they act."
+        },
+        {
+          "lbl": "Nothing gets dropped.",
+          "d": "Every incident carries an owner, a live timeline, and follow-up tasks that stay visible until they are closed."
+        }
+      ]
+    },
+    {
+      "h": "For people who are not on call",
+      "items": [
+        {
+          "lbl": "Status pages update themselves.",
+          "d": "Internal and external pages move as the incident moves. Fewer people asking the NOC for status."
+        },
+        {
+          "lbl": "Stakeholders get told automatically.",
+          "d": "Email, Slack, or web updates go out without pulling a responder off the fix."
+        },
+        {
+          "lbl": "On-call scheduling in plain English.",
+          "d": "Describe the rotation and IMR builds it. Overrides are one button, and deleting a scheduled user readjusts the rotation instead of leaving a gap."
+        }
+      ]
+    }
+  ],
+  "proof": [
+    {
+      "who": "Chalo",
+      "stat": "95% less alert noise",
+      "d": "Consolidated Datadog, AppOptics and Pingdom into one platform. MTTA and MTTR both improved 90%."
+    },
+    {
+      "who": "GroundTruth",
+      "stat": "5 to 10 min MTTA",
+      "d": "Critical incidents acknowledged in 5 to 10 minutes across 50 to 60 engineers on call, with zero unnecessary wake-ups."
+    },
+    {
+      "who": "Electrum",
+      "stat": "80% faster detection",
+      "d": "Monitoring, APM and CI/CD in one view. Resolution time down 60%, SLA breaches down half."
+    }
+  ],
+  "next_label": "Next step, and it does not need your calendar:",
+  "next_step": "send us one noisy service and the alert sources behind it. Our solutions engineer will map the ingest path, the correlation rule, and the routing logic against it and send back the API detail. If it holds up, we will find 30 minutes.",
+  "footnote": "Every figure above comes from a published customer story and is traceable on request.",
+  "rep": {
+    "name": "Rep Name",
+    "title": "Business Development",
+    "email": "first.last@xurrent.com"
+  },
+  "version": "IMR-ALERTING-ONEPAGER-EXAMPLE-v2.0.0",
+  "claims_version": "greg-claims-register-v3.1.0"
+}
