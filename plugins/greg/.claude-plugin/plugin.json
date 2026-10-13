@@ -1,0 +1,9 @@
+{
+  "name": "greg",
+  "displayName": "Greg",
+  "version": "1.11.0",
+  "description": "Sales enablement context manager and the single source of approved customer claims and quotes.",
+  "author": {
+    "name": "Luke Eubanks"
+  }
+}
