@@ -1,0 +1,39 @@
+{
+  "name": "xurrent-agent-fleet",
+  "description": "Luke Eubanks' agent fleet: Lynn, Greg, Danny, Brand, call-to-onepager, and the Xurrent brand guidelines.",
+  "owner": {
+    "name": "Luke Eubanks"
+  },
+  "plugins": [
+    {
+      "name": "lynn",
+      "source": "./plugins/lynn",
+      "description": "Chief of Staff for Luke's AI agents and skills: registry, versions, drift checks, incidents, content reviews, and the weekly 1:1."
+    },
+    {
+      "name": "greg",
+      "source": "./plugins/greg",
+      "description": "Sales enablement context manager and the single source of approved customer claims and quotes."
+    },
+    {
+      "name": "danny",
+      "source": "./plugins/danny",
+      "description": "Senior content writer that drafts in Luke's voice under a strict anti-AI-voice framework."
+    },
+    {
+      "name": "brand",
+      "source": "./plugins/brand",
+      "description": "Xurrent brand compliance layer for documents, decks, one-pagers, emails, and visual assets."
+    },
+    {
+      "name": "call-to-onepager",
+      "source": "./plugins/call-to-onepager",
+      "description": "Turns a discovery or cold call transcript into a brand-compliant, account-tailored one-pager PDF for ITSM or IMR deals."
+    },
+    {
+      "name": "xurrent-brand-guidelines",
+      "source": "./plugins/xurrent-brand-guidelines",
+      "description": "Org-level brand guidelines: palette with supporting tones, typography, visual style, and logo usage."
+    }
+  ]
+}
