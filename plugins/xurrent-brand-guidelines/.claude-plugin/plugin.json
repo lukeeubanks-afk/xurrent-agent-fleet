@@ -1,0 +1,9 @@
+{
+  "name": "xurrent-brand-guidelines",
+  "displayName": "Xurrent Brand Guidelines",
+  "version": "1.0.0",
+  "description": "Org-level brand guidelines: palette with supporting tones, typography, visual style, and logo usage.",
+  "author": {
+    "name": "Luke Eubanks"
+  }
+}
