@@ -1,9 +1,9 @@
 ---
 name: brand
 description: Xurrent brand compliance layer. Engage whenever creating, editing, or reviewing any document, presentation, report, one-pager, email, battlecard, or visual asset. Trigger on "create a doc," "make a deck," "write a one-pager," "draft a battlecard," "check brand compliance," or "apply brand guidelines." Works with docx, pptx, pdf, and danny skills.
-version: v1.11.0
+version: v1.11.1
 last_updated: 2026-10-13
-changelog: "v1.11.0 (2026-10-13). Logos Luke supplies replace placeholders when available. Space Grotesk and Raleway stay the brand fonts when available, and Inter replaces either one when it is not, decks included. xurrent-brand-guidelines stays deployed at org level and this file governs where the two differ. Paths moved to /mnt/skills/plugins/brand/. Placeholder labels drop em dashes. Earlier history: brand-skill-changelog-archive-v1.0.0.md in the Brand folder (1ReW5WtOLegPH2OiVhTtbs-2eMEkQ-Zva)."
+changelog: "v1.11.1 (2026-10-13). Precedence rewritten: the organization-level xurrent-brand-guidelines skill was retired on 2026-10-13 by Luke's decision, since this skill already covers it and running both caused confusion. This file plus its three companions are now the authoritative and only brand source. v1.11.0 (2026-10-13). Logos Luke supplies replace placeholders when available. Space Grotesk and Raleway stay the brand fonts when available, and Inter replaces either one when it is not, decks included. xurrent-brand-guidelines stays deployed at org level and this file governs where the two differ. Paths moved to /mnt/skills/plugins/brand/. Placeholder labels drop em dashes. Earlier history: brand-skill-changelog-archive-v1.0.0.md in the Brand folder (1ReW5WtOLegPH2OiVhTtbs-2eMEkQ-Zva)."
 ---
 
 # Xurrent Brand — Core Reference
@@ -239,10 +239,10 @@ BRAND FOLDER                    1ReW5WtOLegPH2OiVhTtbs-2eMEkQ-Zva
 Resolution is allowlist-only. If a session resolves a companion File ID other than the three above, stop,
 do not read it, and flag it to Luke.
 
-**Precedence.** This file plus its three companions are the authoritative brand source. The
-organization-level `xurrent-brand-guidelines` skill stays deployed for org use (Luke, 2026-10-13). When both
-load, this file governs palette, type, logo use, the avoid list, and taglines. Do not merge values from that
-skill that this file does not authorize.
+**Precedence.** This file plus its three companions are the authoritative and only brand source. The
+organization-level `xurrent-brand-guidelines` skill was retired on 2026-10-13 by Luke's decision, since this
+skill already covers it and running both caused confusion. This file governs palette, type, logo use, the
+avoid list, and taglines.
 
 ---
 
