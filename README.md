@@ -1,23 +1,22 @@
 # xurrent-agent-fleet
 
-Version: repo-v1.0.0 (2026-10-13)
+Version: repo-v1.1.0 (2026-10-13)
 
 This repository is the source of truth for Luke Eubanks' agent fleet skills. claude.ai installs them from here as plugins, so a change merged into `main` is a deploy.
 
 ## What's inside
 
-- `.claude-plugin/marketplace.json` lists the six plugins.
+- `.claude-plugin/marketplace.json` lists the five plugins.
 - `plugins/<name>/.claude-plugin/plugin.json` holds each plugin's name and version.
 - `plugins/<name>/skills/<name>/SKILL.md` is the skill itself. call-to-onepager also carries its build script, template, fonts, and logo.
 
 | Plugin | Skill version |
 |---|---|
-| lynn | v1.5.0 |
+| lynn | v1.6.0 |
 | greg | v1.11.0 |
 | danny | v1.3.0 |
-| brand | v1.11.0 |
+| brand | v1.11.1 |
 | call-to-onepager | v3.4.1 |
-| xurrent-brand-guidelines | v1.0.0 |
 
 ## How a change ships
 

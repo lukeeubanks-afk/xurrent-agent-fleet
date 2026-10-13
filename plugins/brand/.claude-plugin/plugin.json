@@ -1,7 +1,7 @@
 {
   "name": "brand",
   "displayName": "Brand",
-  "version": "1.11.0",
+  "version": "1.11.1",
   "description": "Xurrent brand compliance layer for documents, decks, one-pagers, emails, and visual assets.",
   "author": {
     "name": "Luke Eubanks"

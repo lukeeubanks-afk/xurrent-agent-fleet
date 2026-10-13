@@ -1,6 +1,6 @@
 {
   "name": "xurrent-agent-fleet",
-  "description": "Luke Eubanks' agent fleet: Lynn, Greg, Danny, Brand, call-to-onepager, and the Xurrent brand guidelines.",
+  "description": "Luke Eubanks' agent fleet: Lynn, Greg, Danny, Brand, and call-to-onepager.",
   "owner": {
     "name": "Luke Eubanks"
   },
@@ -29,11 +29,6 @@
       "name": "call-to-onepager",
       "source": "./plugins/call-to-onepager",
       "description": "Turns a discovery or cold call transcript into a brand-compliant, account-tailored one-pager PDF for ITSM or IMR deals."
-    },
-    {
-      "name": "xurrent-brand-guidelines",
-      "source": "./plugins/xurrent-brand-guidelines",
-      "description": "Org-level brand guidelines: palette with supporting tones, typography, visual style, and logo usage."
     }
   ]
 }
