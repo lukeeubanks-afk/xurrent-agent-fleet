@@ -1,9 +1,9 @@
 ---
 name: brand
 description: Xurrent brand compliance layer. Engage whenever creating, editing, or reviewing any document, presentation, report, one-pager, email, battlecard, or visual asset. Trigger on "create a doc," "make a deck," "write a one-pager," "draft a battlecard," "check brand compliance," or "apply brand guidelines." Works with docx, pptx, pdf, and danny skills.
-version: v1.11.0
-last_updated: 2026-10-13
-changelog: "v1.11.0 (2026-10-13). Logos Luke supplies replace placeholders when available. Space Grotesk and Raleway stay the brand fonts when available, and Inter replaces either one when it is not, decks included. xurrent-brand-guidelines stays deployed at org level and this file governs where the two differ. Paths moved to /mnt/skills/plugins/brand/. Placeholder labels drop em dashes. Earlier history: brand-skill-changelog-archive-v1.0.0.md in the Brand folder (1ReW5WtOLegPH2OiVhTtbs-2eMEkQ-Zva)."
+version: v1.12.0
+last_updated: 2026-10-15
+changelog: "v1.12.0 (2026-10-15). Added the Slide Decks section. Brand now runs in graphic-build mode automatically for every slide deck, in PowerPoint and Google Slides: each slide is built as a designed visual rather than a text dump, and every slide carries detailed bulleted speaker notes. The 2026 Xurrent Presentation template is the default deck source; build on its layouts and backgrounds, Light and Dark Mode, when able. Deck template pointer stored in the Slide Decks section, outside the BRAND-COMPANION-POINTER allowlist by design. v1.11.0 (2026-10-13). Logos Luke supplies replace placeholders when available. Space Grotesk and Raleway stay the brand fonts when available, and Inter replaces either one when it is not, decks included. xurrent-brand-guidelines stays deployed at org level and this file governs where the two differ. Paths moved to /mnt/skills/plugins/brand/. Placeholder labels drop em dashes. Earlier history: brand-skill-changelog-archive-v1.0.0.md in the Brand folder (1ReW5WtOLegPH2OiVhTtbs-2eMEkQ-Zva)."
 ---
 
 # Xurrent Brand — Core Reference
@@ -198,6 +198,29 @@ GigaOm Leader recognition in the Use list above.
 - [ ] Background decoration: omitted from generated output
 - [ ] Lavender Fog on Dark Purple used only for quotes and highlighted italics
 - [ ] Typography and layout are relaxed — clarity over design polish
+
+---
+
+## Slide Decks
+
+Whenever you build a slide deck, in PowerPoint (pptx) or Google Slides, run in graphic-build mode by default. This is automatic. Do not wait to be asked.
+
+**Graphic build.** Build every slide as a designed visual, not a text dump. Apply the approved palette, Space Grotesk and Raleway (Inter where either is not available), clear visual hierarchy, and the layout patterns from the deck template below. One idea per slide. Favor charts, stat blocks, and diagrams over paragraphs of text. Follow the dataviz rules for any chart.
+
+**Speaker notes.** Write detailed bulleted speaker notes on every slide, automatically. Notes are bullets, not prose: the talking points, the proof point or number behind each claim, and the transition to the next slide. Keep them in the notes field, never on the slide face.
+
+**Deck template.** The default source for every deck is the 2026 Xurrent Presentation template:
+- Google Slides ID: `1_sjX7ZZFf1ACTPCw9Pte0F-zw0tdkYBz9SbEessleBA`
+- A general-purpose Xurrent template: 54 slides, one master ("Office Theme"), Light Mode and Dark Mode layout variants, with layouts for title, speakers, agenda, section breaks, 1 to 6 stat blocks, dashboard, profile, table, 1 to 4 column content, full-size photo, charts, summary with QR code, next-steps table, closing brand slide, and thank you.
+- This is a deck template used when building, not a companion reference file to read. It sits outside the BRAND-COMPANION-POINTER allowlist by design, so do not flag it against that allowlist.
+
+Build on this template when able:
+- Copy the template. Never edit the master template version. Remove its instruction slide (slide 1) from your file.
+- Use its backgrounds and layouts. Backgrounds live on the master and the Light and Dark Mode layouts, so choose the layout that carries the background you want rather than painting a background onto the slide.
+- Pick the layout that fits the content: the stat layouts for metrics, the column layouts for comparisons, the chart layouts for data, the closing brand slide to end.
+- When you cannot reach or apply the template, fall back to a plain brand background on the approved palette, and note in the deliverable that the template was not applied.
+
+For slide decks, this overrides the Background Decoration omit rule: use the template's backgrounds and layout graphics. The omit rule still holds for ad hoc flower and petal decorations that are not part of the template.
 
 ---
 
