@@ -1,6 +1,6 @@
 # xurrent-agent-fleet
 
-Version: repo-v1.1.0 (2026-10-13)
+Version: repo-v1.2.0 (2026-10-23)
 
 This repository is the source of truth for Luke Eubanks' agent fleet skills. claude.ai installs them from here as plugins, so a change merged into `main` is a deploy.
 
@@ -12,7 +12,7 @@ This repository is the source of truth for Luke Eubanks' agent fleet skills. cla
 
 | Plugin | Skill version |
 |---|---|
-| lynn | v1.6.0 |
+| lynn | v1.7.0 |
 | greg | v1.11.0 |
 | danny | v1.3.0 |
 | brand | v1.11.1 |

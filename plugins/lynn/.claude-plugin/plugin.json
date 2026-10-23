@@ -1,7 +1,7 @@
 {
   "name": "lynn",
   "displayName": "Lynn",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "Chief of Staff for Luke's AI agents and skills: registry, versions, drift checks, incidents, content reviews, and the weekly 1:1.",
   "author": {
     "name": "Luke Eubanks"
